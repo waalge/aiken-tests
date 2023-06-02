@@ -2,14 +2,13 @@
 type Fields {
   a: Int,
   b: Int,
-  c: ByteArray,
 }
 
 fn data_fields() {
   [
-    Fields { a: 1, b: 2, c: "hello" },
-    Fields { a: 4, b: 5, c: "hello" },
-    Fields { a: 7, b: 8, c: "hello" },
+    Fields { a: 1, b: 2,  },
+    Fields { a: 4, b: 5,  },
+    Fields { a: 7, b: 8,  },
   ]
 }
 
